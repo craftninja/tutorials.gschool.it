@@ -65,3 +65,27 @@ When you are done, push your code back up to GitHub for review.
     1. If that number is less than the random number, print out the string "Higher" and asks for another number
     1. If that number is greater than the random number, print out the string "Lower" and asks for another number.
     1. If that number is equal to the random number, print out "Congratulations!" and stop asking for numbers.
+
+2. Deaf Grandma
+  1. Whatever you say to grandma(type into the program), she should respond with 'HUH?!, SPEAK UP SONNY!'
+  2. She will only respond to you if you shout (type in all capitals)
+  3. If you shout, she can hear you, or at least she thinks she can and responds 'NO, NOT SINCE 1938!'
+  4. To make your program more believable, have grandma shout a different year each time; maybe any year at random between 1930-1950 (this part is optional, so maybe we won't use it to avoid stubbing random)
+  5. You can't stop talking to grandma until you say 'BYE!'
+
+3. Old-School Roman Numerals
+  1. The program has a method that when passed an integer between 1 and 3000 (or so) returns a string containing the proper old-school roman numeral.
+  2. I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000
+
+4. Interactive Baby Dragon
+  1. Write a program that lets you enter feed, walk, put to bed, toss, rock commands.
+  2. The dragon should be able to know if it is hungry, tired, needs to go, etc.
+  3. Remember since you are inputting just strings, you will need some sort of method dispatch, where your program checks which string was entered and then calls the appropriate method.
+
+5. Birthday Helper
+  1. Write a program to read in names and birth dates from a text file.
+  2. It should then ask you for a name. You type one in.
+  3. It tells you when that person's birthday will be and how old they will be.
+
+6. 99 Bottles of Beer
+  1. Write a program that calculates that prints out the lyrics to the song starting with 99 bottles all the way until 0 bottles. 

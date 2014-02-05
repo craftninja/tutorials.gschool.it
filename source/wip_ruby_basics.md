@@ -59,33 +59,37 @@ When you are done, push your code back up to GitHub for review.
 
 (Mike's notes in parens)
 
-1. Guessing Game (this one may be tricky because we have to stub random on the tests...let's look for 5 others to see if we need this one. Another option is to give them the code needed to get the random number to start with so we can stub it properly in the tests)
+1. Deaf Grandma
+  1. Whatever you say to grandma(type into the program), she should respond with 'HUH?!, SPEAK UP SONNY!'
+  2. She will only respond to you if you shout (type in all capitals). So, she won't say 'HUH?!' if you type in all capitals.
+  3. If you shout, she can hear you, or at least she thinks she can and responds 'NO, NOT SINCE 1938!'
+  4. To make your program more believable, have grandma shout a different year each time; maybe any year at random between 1930-1950 (this part is optional, so maybe we won't use it to avoid stubbing random)
+  5. You can't stop talking to grandma until you say 'BYE!'
+
+2. 99 Bottles of Beer
+  1. Write a program that calculates that prints out the lyrics to the song starting with 99 bottles all the way until 0 bottles.
+
+3. Guessing Game (this one may be tricky because we have to stub random on the tests...let's look for 5 others to see if we need this one. Another option is to give them the code needed to get the random number to start with so we can stub it properly in the tests)
     1. The program calculates a random number between 1 and 10 when it starts and stores it in a variable. (Figure out how to stub random in the tests.)
     1. The program asks the user for a number by printing the prompt "Please enter a number:".
     1. If that number is less than the random number, print out the string "Higher" and asks for another number
     1. If that number is greater than the random number, print out the string "Lower" and asks for another number.
     1. If that number is equal to the random number, print out "Congratulations!" and stop asking for numbers.
 
-2. Deaf Grandma
-  1. Whatever you say to grandma(type into the program), she should respond with 'HUH?!, SPEAK UP SONNY!'
-  2. She will only respond to you if you shout (type in all capitals)
-  3. If you shout, she can hear you, or at least she thinks she can and responds 'NO, NOT SINCE 1938!'
-  4. To make your program more believable, have grandma shout a different year each time; maybe any year at random between 1930-1950 (this part is optional, so maybe we won't use it to avoid stubbing random)
-  5. You can't stop talking to grandma until you say 'BYE!'
 
-3. Old-School Roman Numerals
+4. Old-School Roman Numerals
   1. The program has a method that when passed an integer between 1 and 3000 (or so) returns a string containing the proper old-school roman numeral.
   2. I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000
+  3. For example, 558 would be DLVIII and 2,302 would be MMCCCII
 
-4. Interactive Baby Dragon
-  1. Write a program that lets you enter feed, walk, put to bed, toss, rock commands.
-  2. The dragon should be able to know if it is hungry, tired, needs to go, etc.
-  3. Remember since you are inputting just strings, you will need some sort of method dispatch, where your program checks which string was entered and then calls the appropriate method.
+5. Baby Dragon Virtual Pet
+  1. You have a virtual pet that is a baby dragon or whatever animal you want it to be.
+  2. Like most babies, it needs to eat, sleep, poop, which means you will need to feed it, put it to bed, and take it on walks.
+  3. Internally, the dragon will need to keep track of if its hungry, tired, or needs to use the restroom. We won't be able to see that when we interact with our dragon, however.
+  4. We will, also, add a few other fun ways to interact with the dragon and when he is born, you should give him/her a name.
+  5. Write a program that lets you enter commands such as 'Feed' and 'Walk' and call those methods on your dragon.
 
-5. Birthday Helper
+6. Birthday Helper
   1. Write a program to read in names and birth dates from a text file.
   2. It should then ask you for a name. You type one in.
   3. It tells you when that person's birthday will be and how old they will be.
-
-6. 99 Bottles of Beer
-  1. Write a program that calculates that prints out the lyrics to the song starting with 99 bottles all the way until 0 bottles. 

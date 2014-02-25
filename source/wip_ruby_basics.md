@@ -88,6 +88,7 @@ When you are done, push your code back up to GitHub for review.
   3. The dragon will tell you if it's hungry, tired, or needs to use the restroom. That is a conversation between you and your baby dragon only.
   4. We will, also, add a few other fun ways to interact with the dragon and when he is born, you should give him/her a name.
   5. Write a program that lets you enter commands such as 'Feed' and 'Walk' and call those methods on your dragon.
+  6. Even though your dragon is a baby, it has a great memory! It remembers if it's fed, etc. (persistent state)
 
 6. Birthday Helper
   1. Write a program to read in names and birth dates from a text file.

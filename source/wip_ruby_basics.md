@@ -66,7 +66,9 @@ When you are done, push your code back up to GitHub for review.
   4. To make your program more believable, have grandma shout a different year each time; maybe any year at random between 1930-1950 (this part is optional, so maybe we won't use it to avoid stubbing random)
 
 2. 99 Bottles of Beer
-  1. Write a program that calculates that prints out the lyrics to the song starting with 99 bottles all the way until 0 bottles, when you tell it to 'Sing!'
+  1. Write a program that calculates that prints out the lyrics to the song starting with 99 bottles all the way until 0 bottles, when you tell it to 'sing'.
+  2. You will need to tell the program what number of verses to sing (ie. 'sing 5') and it will start with 5 bottles of beer on the wall.
+  3. If it is told to 'sing' without a number, the program will tell you that it needs a number. 
 
 3. Guessing Game (this one may be tricky because we have to stub random on the tests...let's look for 5 others to see if we need this one. Another option is to give them the code needed to get the random number to start with so we can stub it properly in the tests)
     1. The program calculates a random number between 1 and 10 when it starts and stores it in a variable. (Figure out how to stub random in the tests.)
